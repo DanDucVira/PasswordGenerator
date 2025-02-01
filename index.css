@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 25px;
+    background-color: #1F2937;
+    color: #fff;
+}
+#ranColor{
+    color: #34D399;
+    font-weight: bolder;
+}   
+
+#container{
+   text-align: left;
+   padding: 54px;
+   max-width: 500px;
+   margin: 0 auto;
+}
+#btn{
+    border: none;
+    background: #34D399;
+    padding: 10px 15px;
+    color:white;
+    margin: 25px 0;
+    outline: none;
+    
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+#passOne, #passTwo{
+    display: inline-block;
+    color:  #34D399;
+    border: none solid #34D399;
+    padding: 10px 40px;
+    border-radius: 5px;
+    width: 125px;
+    background-color: #4B5563;
+    white-space: nowrap;
+    text-align: center;
+    min-height: 20px;
+
+
+}
+
